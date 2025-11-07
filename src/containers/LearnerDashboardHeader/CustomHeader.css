@@ -1,0 +1,36 @@
+.cd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height, 60px);
+  padding: 0 18px;
+  background: var(--light-bg, #ffffff);
+  border-bottom: 1px solid var(--border-color, #e6e6e6);
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+
+.cd-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cd-hamburger {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.cd-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text-primary, #222);
+}
+
+.cd-right {
+  /* keep reserved for actions */
+}
