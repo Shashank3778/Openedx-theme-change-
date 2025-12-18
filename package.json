@@ -50,6 +50,7 @@
     "font-awesome": "4.7.0",
     "form-urlencoded": "6.1.6",
     "formdata-polyfill": "4.0.10",
+    "i": "^0.3.7",
     "jslib-html5-camera-photo": "3.3.4",
     "lodash.camelcase": "4.3.0",
     "lodash.debounce": "4.0.8",
